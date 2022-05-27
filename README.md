@@ -1,6 +1,6 @@
-#GALAXY: Graph-based Active Learning at the Extreme
+# GALAXY: Graph-based Active Learning at the Extreme
 
-###Package Requirements
+### Package Requirements
 Install the following dependencies:
 
 ```PyTorch```
@@ -13,7 +13,7 @@ To run python scripts in the directories below, export the following variable na
 export PYTHONPATH="${PYTHONPATH}:<path to>/multi-graph_active_learning
 ```
 
-###File Structure
+### File Structure
 * `src/mp_launcher.py`  Multi-process launcher for GALAXY, Random, Confidence Sampling, Most Likely Positive, BASE, Cluster_Margin and vanilla S^2 on kNN graph. Example commands to launch individual experiment included. To launch all experiments:
 ```
 python mp_launcher.py

@@ -10,7 +10,7 @@ Install the following dependencies:
 ### Exporting Environment Variable
 To run python scripts in the directories below, export the following variable name when a new terminal is started:
 ```
-export PYTHONPATH="${PYTHONPATH}:<path to>/multi-graph_active_learning
+export PYTHONPATH="${PYTHONPATH}:<path to>/GALAXY"
 ```
 
 ### File Structure
